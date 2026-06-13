@@ -218,6 +218,14 @@ ORDER BY
 
 
 # What i learnt 
+Throughout this project, i improved and turbocharged my SQL toolkit with some serious firepower:
+
+- **Complex Query**: Mastered the art of of advanced SQL, merging tables like a pro, and using with clauses to use multiple queries into one . 
+
+- **Data Aggregation**: Got comfortable with GROUP BY and turned aggregate functions like COUNT() and AVG() into my data_summarizing sidekicks. 
+
+- **Analytical Thinking**: levelled up my real_world puzzle solving skills, turning questions into actionable, insightful SQL queries
 # Conclusions 
 
-
+This Project enhanced my SQL skills and provided valuable insights into the data analyst job maret. The findings from the analysis serve as a guide to prioritising skill development and job search efforts. Aspiring Data Analysts can better position themselves in a competitive job market by focusing on high-demand, high salary skills. This exploration highlights the importance of continous learning and adaptation to emerging trends in the field of data analytics. 
+ 
