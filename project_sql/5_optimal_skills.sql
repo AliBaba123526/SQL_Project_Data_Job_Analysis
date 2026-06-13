@@ -235,3 +235,6 @@ Insights:
 1. The most in-demand skills for Data Analysts in the United Kingdom are Excel, Python, and SQL, with Excel having the highest demand count of 11 job postings.
 2. Python has the highest average salary of £83,968 among the top demanded skills, indicating that proficiency in Python can lead to better-paying opportunities.
 3. Other valuable skills include Tableau and Power BI, which are also in demand and offer competitive salaries.
+
+What i did: To identify the optimal skills for Data Analyst roles in the United Kingdom, I queried the job_postings_fact table to filter for job titles containing 'Data Analyst' and locations within the United Kingdom. I ensured that only listings with specified salary ranges were included by excluding NULL values in the salary_year_avg column. The results were then ordered by average yearly salary in descending order, and I limited the output to the top 25 highest paying skills. Additionally, I joined with the skills_job_dim and skills_dim tables to include skill names for context on the technical requirements of these positions.
+-- This query highlights the high-paying technical skills in demand for Data Analyst roles within the United Kingdom.

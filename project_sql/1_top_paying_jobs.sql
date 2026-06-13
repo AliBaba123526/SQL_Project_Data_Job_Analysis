@@ -125,3 +125,8 @@ QUICK INSIGHTS:
 - Shell offers a Data Architect position with an average salary of £156,500, which is also a high-paying role in the data analysis field.
 - The salaries for Data Analyst roles in the United Kingdom vary significantly, with the lowest in the top 10 being around £75,067.5 for a Global Mobility Data Analyst at CHANEL. 
 */
+
+/*
+What i did : to identify the top paying Data Analyst jobs in the United Kingdom, I queried the job_postings_fact table to filter for job titles containing 'Data Analyst' and locations within the United Kingdom. I ensured that only listings with specified salary ranges were included by excluding NULL values in the salary_year_avg column. The results were then ordered by average yearly salary in descending order, and I limited the output to the top 10 highest paying roles. Additionally, I joined with the company_dim table to include company names for context on the employers offering these positions.
+This query highlights the high paying opportunities in the data analyst field within the United Kingdom.
+*/

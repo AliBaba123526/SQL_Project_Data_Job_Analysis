@@ -127,3 +127,6 @@ INSIGHTS:
 BI and visualisation tools remain highly valued, with Looker, Tableau, and Power BI appearing in the top-paying skills, showing demand for analysts who can turn data into clear business insights.
 SQL and Excel are still important foundations, but the highest salaries appear when they are combined with programming, cloud platforms, automation, and advanced analytics tools.
 */
+
+-- What i did: To identify the top paying skills for Data Analyst roles in the United Kingdom, I queried the job_postings_fact table to filter for job titles containing 'Data Analyst' and locations within the United Kingdom. I ensured that only listings with specified salary ranges were included by excluding NULL values in the salary_year_avg column. The results were then ordered by average yearly salary in descending order, and I limited the output to the top 25 highest paying skills. Additionally, I joined with the skills_job_dim and skills_dim tables to include skill names for context on the technical requirements of these positions.
+-- This query highlights the high-paying technical skills in demand for Data Analyst roles within the United Kingdom.
